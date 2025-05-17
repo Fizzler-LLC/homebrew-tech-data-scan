@@ -8,10 +8,10 @@ class ItarScan < Formula
   # ─── Binary + LoRA (PyInstaller output) ──────────────────────────
   on_macos do
     if Hardware::CPU.arm?
-      url     "https://github.com/brianfrechette3/tech-data-scan-public/releases/download/v0.1.2/itar-scan-macos-arm64.tar.gz"
+      url     "https://github.com/Fizzler-LLC/homebrew-tech-data-scan/releases/download/v0.1.0/itar-scan-macos-arm64.tar.gz"
       sha256  "4bd08c2255adf63f29b30a1b64f2823ce3c13b95114a4fbe405ac5c3e5d6c7ed"
     else
-      url     "https://github.com/brianfrechette3/tech-data-scan-public/releases/download/v0.1.2/itar-scan-macos-arm64.tar.gz"
+      url     "https://github.com/Fizzler-LLC/homebrew-tech-data-scan/releases/download/v0.1.0/itar-scan-macos-arm64.tar.gz"
       sha256  "X86_64_SHA"
     end
   end
